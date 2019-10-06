@@ -12,8 +12,8 @@
 }
 #right-text{
     margin-left:150px;
-    margin-right: 50px;
-    margin-top:200px;
+    margin-right: 20px;
+    margin-top:1px;
     font-family: Lato-Regular;
 }
 #right-text p {
@@ -22,10 +22,10 @@
 #right-text p strong{
     font-family: Lato-Bold;
 }
+
 #imagen1{
-    width: 254px;
-    height: 249px;
-    left: 72px;
-    top: 201px;
+    width: 400px;
+    margin-left: 5px; 
+    margin-top: 40px;
 }
 
