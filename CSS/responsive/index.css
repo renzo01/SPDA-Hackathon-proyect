@@ -8,6 +8,7 @@
 
     #bg-index {
         position: relative;
+        background: white;
     }
     #bg-index img {
         position: absolute;
