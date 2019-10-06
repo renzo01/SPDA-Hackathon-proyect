@@ -10,6 +10,11 @@
         position: relative;
         background: white;
     }
+
+    #bg-index:hover {
+        
+    }
+
     #bg-index img {
         position: absolute;
         left: -180px;
