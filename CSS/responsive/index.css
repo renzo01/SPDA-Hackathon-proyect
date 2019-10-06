@@ -1,0 +1,51 @@
+
+@media screen and (max-width: 800px) {
+
+    header {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    #chkMenu {
+        display: none;
+    }
+
+    #cont-logo {
+        color: var(--green1);
+    }
+
+    #btnMenu-label {
+        display: flex;
+        flex-direction: column;
+        width: 3rem;
+        margin-top: 1rem;
+        margin-left: 0.5rem;
+    }
+
+    .menu-polygon {
+        width: 90%;
+        height: 0.6rem;
+        margin: auto;
+        margin-bottom: 0.2rem;
+        background: yellow;
+        border: 0.5px solid dimgray;
+        border-radius: 10px;
+    }
+
+    #container-all {
+
+    }
+    #bg-index {
+        position: relative;
+    }
+    #bg-index img {
+        position: absolute;
+        left: -180px;
+        top: 0px;
+        width: 200%;
+        height: 120vh;
+        border: 2px solid red;
+        z-index: -100;
+    }
+
+}
