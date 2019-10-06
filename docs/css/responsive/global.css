@@ -146,5 +146,65 @@
     #exp3 > a {
         top: 91.5%;
         left: 22%;
-    }
+	}
+	
+	#sponsored-all {
+		position: absolute;
+		top: 460%;
+		left: 0px;
+		width: 100vw;
+		padding: 0.5rem;
+	}
+
+	.sponsored-elements {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin: 1rem auto;
+	}
+
+	.sponsored-elements #simg1 {
+		width: 7rem;
+		height: 6rem;
+	}
+	.sponsored-elements #simg2{
+		width: 12rem;
+		height: 5rem;
+		margin-bottom: 0.5rem;
+	}
+	.sponsored-elements #simg3 {
+		width: 5rem;
+		height: 6rem;
+		margin-bottom: 1rem;
+	}
+	.sponsored-elements #simg4 {
+		width: 12rem;
+		height: 4rem;
+	}
+
+	.rutapormi {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-top: 1rem;
+	}
+
+	.contentPrice {
+		width: 50%;
+		margin: auto;
+		margin-top: 0.5rem;
+		padding: 0.5rem;
+	}
+	.contentPrice h4 {
+		color: #CBDC51;
+		padding: 0.5rem;
+		font-family: "Lato";
+	}
+	.contentPrice h5 {
+		color: black;
+		font-family: "Lato";
+		padding-left: 0.5rem;
+		font-size: 12pt;
+	}
 }
