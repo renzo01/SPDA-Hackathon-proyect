@@ -1,6 +1,11 @@
 
 @media screen and (max-width: 800px) {
 
+    #container-all {
+     overflow: hidden;
+     height: 100vh;
+    }
+
     header {
         display: flex;
         justify-content: flex-start;
@@ -11,7 +16,19 @@
     }
 
     #cont-logo {
+        display: flex;
         color: var(--green1);
+        margin-left: 2.2rem;
+        margin-top: 1.5rem;
+        width: 10rem;
+        justify-content: space-between;
+        align-items: center;
+        font-family: sans-serif;
+    }
+
+    #cont-logo img {
+        width: 2.8rem;
+        height: 2.8rem;
     }
 
     #btnMenu-label {
@@ -32,9 +49,7 @@
         border-radius: 10px;
     }
 
-    #container-all {
-
-    }
+    
     #bg-index {
         position: relative;
     }
@@ -43,7 +58,7 @@
         left: -180px;
         top: 0px;
         width: 200%;
-        height: 120vh;
+        height: 100vh;
         border: 2px solid red;
         z-index: -100;
     }
