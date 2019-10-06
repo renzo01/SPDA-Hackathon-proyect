@@ -9,20 +9,15 @@
     #bg-index {
         position: relative;
         background: white;
-    }
-
-    #bg-index:hover {
-        
+        width: 100%;
     }
 
     #bg-index img {
         position: absolute;
         left: -180px;
         top: 0px;
-        width: 200%;
-        height: 100vh;
-        border: 2px solid red;
         z-index: -100;
+        height: 100vh;
     }
 
     .text-primary-index {
@@ -57,14 +52,6 @@
         position: relative;
     }
 
-    .triangle.arrow-down {
-        border-color: transparent transparent white transparent;
-    }
 
-    .triangle.arrow-down > div {
-        border-color: transparent transparent green transparent;
-        top: 1px;
-        left: -10px;
-    }
 
 }
