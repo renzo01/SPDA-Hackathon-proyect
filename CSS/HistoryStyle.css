@@ -1,7 +1,31 @@
 #left-text  {
-    margin-left : 50px;
+    margin-left : 25px;
+    margin-top:29px;
+    margin-right: 150px;
+    font-family: Lato-Regular;
 }
-*{
-    background-color: #F5F8DD;
+#left-text p {
+    font-size: 26px;
+}
+#left-text p strong{
+    font-family: Lato-Bold;
+}
+#right-text{
+    margin-left:150px;
+    margin-right: 50px;
+    margin-top:200px;
+    font-family: Lato-Regular;
+}
+#right-text p {
+    font-size: 26px;
+}
+#right-text p strong{
+    font-family: Lato-Bold;
+}
+#imagen1{
+    width: 254px;
+    height: 249px;
+    left: 72px;
+    top: 201px;
 }
 

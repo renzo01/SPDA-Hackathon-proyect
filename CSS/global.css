@@ -8,6 +8,7 @@
 :root {
     --green0: #55CB95;
     --green1: #006B54;
+    --BackgroundPage: #F5F8DD; 
 }
 @font-face {
     font-family: Lato-Regular;
