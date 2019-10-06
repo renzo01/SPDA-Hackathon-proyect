@@ -1,0 +1,47 @@
+
+@media screen and (max-width: 800px) {
+
+    header {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    #chkMenu {
+        display: none;
+    }
+
+    #btnMenu-label {
+        display: flex;
+        flex-direction: column;
+        width: 3rem;
+        margin-top: 1rem;
+        margin-left: 0.5rem;
+    }
+
+    .menu-polygon {
+        width: 90%;
+        height: 0.6rem;
+        margin: auto;
+        margin-bottom: 0.2rem;
+        background: var(--green0);
+        border: 0.5px solid dimgray;
+        border-radius: 10px;
+    }
+
+    #cont-logo {
+        display: flex;
+        color: var(--green2);
+        margin-left: 2.2rem;
+        margin-top: 1.5rem;
+        width: 10rem;
+        justify-content: space-between;
+        align-items: center;
+        font-family: Lato-Regular;
+    }
+
+    #cont-logo img {
+        width: 2.8rem;
+        height: 2.8rem;
+    }
+
+}

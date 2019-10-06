@@ -6,8 +6,9 @@
 }
 
 :root {
-    --green0: #55CB95;
-    --green1: #006B54;
+    --green0: #CBDC51;
+    --green1: #55CB95;
+    --green2: #006B54;
     --BackgroundPage: #F5F8DD; 
 }
 @font-face {
