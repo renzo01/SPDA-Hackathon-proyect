@@ -9,3 +9,11 @@
     --green0: #55CB95;
     --green1: #006B54;
 }
+@font-face {
+    font-family: Lato-Regular;
+    src: url("font/lato/Lato-Regular.ttf");
+}
+@font-face {
+    font-family: Lato-Bold;
+    src: url("font/lato/Lato-Bold.ttf");
+}
