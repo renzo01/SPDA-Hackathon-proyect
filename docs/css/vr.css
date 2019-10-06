@@ -3,18 +3,15 @@
 
     #content-vr-1 {
         padding-top: 1rem;
-        position: absolute;
-        top: 450%;
-        left: 0px;
         width: 100vw;
     }
 
     #content-vr-2 {
         padding-top: 1rem;
-        position: absolute;
-        top: 520%;
-        left: 0px;
         width: 100vw;
+        position: absolute;
+        top: 4rem;
+        left: 0px;
     }
 
     .content-subtitle-all {
